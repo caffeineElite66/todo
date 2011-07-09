@@ -1,0 +1,14 @@
+TaskList
+- id
+- title
+- description
+- userId
+- createdAt
+
+TaskItem
+- id
+- title
+- description
+- taskListId
+- createdAt
+

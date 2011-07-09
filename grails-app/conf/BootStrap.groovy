@@ -1,6 +1,4 @@
-import com.kl.todo.Role
-import com.kl.todo.User
-import com.kl.todo.UserRole
+import com.kl.todo.*
 
 class BootStrap {
 	def springSecurityService
@@ -17,6 +15,16 @@ class BootStrap {
         if (!adminUser.authorities.contains(adminRole)) {
             UserRole.create adminUser, adminRole
         }
+		
+		def item = new TaskItem()
+		item.title = "Test Item"
+		item.description = "Test item description"
+		item.createdAt = new Date()
+		def list = new TaskList()
+		list.title = "Test List"
+		list.description = "Test list description"
+		list.taskItems = [item]
+		list.user = adminUser
     }
     def destroy = {
     }
