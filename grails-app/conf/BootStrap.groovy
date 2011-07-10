@@ -8,6 +8,9 @@ class BootStrap {
 	    def adminRole = Role.findByAuthority('ROLE_ADMIN') ?: new Role(authority: 'ROLE_ADMIN').save(failOnError: true)
 
         def adminUser = User.findByUsername('admin') ?: new User(
+                email: 'kevin@gmail.com',
+                firstName: 'Kevin',
+                lastName: 'Liu',
                 username: 'admin',
                 password: springSecurityService.encodePassword('admin'),
                 enabled: true).save(failOnError: true)

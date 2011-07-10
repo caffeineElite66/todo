@@ -1,3 +1,4 @@
+<meta name="layout" content="main"/>
 <h1>Dashboard</h1>
 
 <p>Hello ${username}</p>

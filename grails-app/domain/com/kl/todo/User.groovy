@@ -8,6 +8,9 @@ class User {
 	boolean accountExpired
 	boolean accountLocked
 	boolean passwordExpired
+    String email
+    String firstName
+    String lastName
 
     List taskLists = new ArrayList()
 
