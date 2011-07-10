@@ -8,6 +8,7 @@ class HomeController {
     @Secured(['IS_AUTHENTICATED_REMEMBERED'])
     def index = { 
         def user = User.get(springSecurityService.principal.id)
-        [username : user.username, list : TaskList.findAllByUser(user)]
+        def lists = TaskList.findAllByUser(user)
+        [username : user.username, lists : lists]
     }
 }

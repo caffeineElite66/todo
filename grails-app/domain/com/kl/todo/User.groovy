@@ -9,6 +9,10 @@ class User {
 	boolean accountLocked
 	boolean passwordExpired
 
+    List taskLists = new ArrayList()
+
+    static hasMany = [taskLists: TaskList]
+
 	static constraints = {
 		username blank: false, unique: true
 		password blank: false
