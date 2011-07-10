@@ -17,18 +17,27 @@ class BootStrap {
         }
 		
 		def item1 = new TaskItem()
-		item1.title = "Test Item"
-		item1.description = "Test item description"
+		item1.title = "Show Michelle your badminton metals."
+		item1.description = "Find all your badminton metals and wear them around your neck for few hours."
 		item1.createdAt = new Date()
         def item2 = new TaskItem()
-        item2.title = "Test Item 2"
-        item2.description = "Test item 2 description"
+        item2.title = "Clean house"
+        item2.description = "Clean the kitchen floor and wash the dishes."
         item2.createdAt = new Date()
-		def list = new TaskList()
-		list.title = "Test List"
-		list.description = "Test list description"
+        def item3 = new TaskItem()
+        item3.title = "Study for ticketfly"
+        item3.description = "Should study for ticketfly. Work on MySQL and Data Integration."
+        item3.createdAt = new Date()
+
+        def list = new TaskList()
+		list.title = "Personal Todo"
+		list.description = "for personal life"
 		list.taskItems = [item1, item2]
-		adminUser.taskLists = [list]
+        def list2 = new TaskList()
+        list2.title = "Study Todo"
+        list2.description = "for perfessional life"
+        list2.taskItems = [item3]
+		adminUser.taskLists = [list, list2]
     }
     def destroy = {
     }
