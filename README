@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 TaskList
 - id
 - title
@@ -12,3 +13,8 @@ TaskItem
 - taskListId
 - createdAt
 
+=======
+Hi from dell.
+Hi from Mac.
+hi again!
+>>>>>>> layout

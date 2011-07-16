@@ -1,3 +1,5 @@
+package com.kl.todo
+
 import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils
 
 class LogoutController {
