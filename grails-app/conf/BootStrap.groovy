@@ -1,5 +1,9 @@
-import com.kl.todo.*
-<<<<<<< HEAD
+import com.kl.todo.Role
+import com.kl.todo.User
+import com.kl.todo.UserRole
+import com.kl.todo.TaskItem
+import com.kl.todo.TaskList
+
 
 class BootStrap {
 	def springSecurityService
@@ -42,21 +46,7 @@ class BootStrap {
         list2.description = "for perfessional life"
         list2.taskItems = [item3]
 		adminUser.taskLists = [list, list2]
-=======
 
-class BootStrap {
-
-    def springSecurityService
-    
-    def init = { servletContext ->
-        
-        // create an admin user for testing
-        def adminUser = User.findByUsername('admin') ?: new User(
-            username: 'admin',
-            password: springSecurityService.encodePassword('admin'),
-            enabled: true).save(failOnError: true)
-       
->>>>>>> layout
     }
     
     def destroy = {

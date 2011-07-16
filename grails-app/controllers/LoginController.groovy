@@ -1,4 +1,3 @@
-package com.kl.todo
 
 import grails.converters.JSON
 
