@@ -1,0 +1,107 @@
+/*  
+Theme Name: Ginger Ninja! v2
+Description: The new Ginger Ninja! theme.
+Version: 1.0
+Author: Donny Burnside
+Author URI: http://www.ginger-ninja.net/
+*/
+
+/* Generic Styling */
+body {
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	font-size: 12px;
+	color: #666666;
+	 
+}
+a {
+	text-decoration:none;
+	color:#B4C835;
+	}
+a:hover {
+	text-decoration:none;
+	color:#6CC7DC;
+	}
+        
+#wrapper {
+	width:700px;
+	margin: auto;
+}
+/*header*/
+#header { 
+        height:100px;
+        padding-bottom: 0;
+        margin-top: 0;
+        text-align: bottom;
+}
+#header h1{
+        float:right;
+        margin-top: 70px;
+} 
+#content {
+	float:left;
+        min-height:500px;
+	}
+/* Menu */
+
+#menu{
+        height:35px;
+        line-height:35px;
+	background:url(../images/layout_images/bg-menu.png) repeat-x;
+	padding:0 10px;
+        margin-top:0;
+ 
+}
+
+#menu ul {
+	list-style-type:none;
+	}
+
+#menu li {
+       
+        float:left;
+	}
+        
+#menu li a {
+	padding:0 15px;
+	display:block;
+	color:#ffffff;
+	margin-right:2px;
+	}
+        
+#menu li a:hover {
+	background:url(../images/layout_images/bg-menu-hover.png) no-repeat center center;
+        color:#DB6D16;
+	}
+
+/*footer*/
+#footer{
+        border-top: 1px cadetblue dotted;
+        color: #C9C9C9;
+        height:38px;
+        margin-top:35px;
+        clear:both;
+}
+
+
+#footer #footer-valid{
+        margin:auto;
+        float:left;
+        padding-top:10px;
+}
+
+
+#footer #footer-valid a {
+        color:gray;
+        text-decoration: none;
+}
+#footer #footer-valid a:hover{
+        color: #DB6D16; 
+        text-decoration: underline;
+}
+
+#footer .copyright{
+        clear:both;
+        padding-top:10px;
+        float:right;
+}
+ 
