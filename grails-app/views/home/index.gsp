@@ -1,4 +1,4 @@
-<meta name="layout" content="main"/>
+<meta name="layout" content="main_dreamStyle"/>
 <h1>Dashboard</h1>
 
 <p>Hello ${username}</p>

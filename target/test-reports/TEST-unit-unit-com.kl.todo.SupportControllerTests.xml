@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Kevin-Lius-MacBook-Pro.local" name="com.kl.todo.SupportControllerTests" tests="1" time="0.867" timestamp="2011-08-01T04:17:54">
+  <properties />
+  <testcase classname="com.kl.todo.SupportControllerTests" name="testForgetPassword" time="0.841" />
+  <system-out><![CDATA[--Output from testForgetPassword--
+]]></system-out>
+  <system-err><![CDATA[--Output from testForgetPassword--
+]]></system-err>
+</testsuite>

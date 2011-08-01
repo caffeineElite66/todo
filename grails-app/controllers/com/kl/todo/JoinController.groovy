@@ -19,6 +19,7 @@ class JoinController {
                 flash.message = "User Created Successfully."
                 redirect(uri: "/home")
             } else {
+                flash.message = "User Created Unsuccessfully."
                 redirect(uri: "/join")
             }
         }

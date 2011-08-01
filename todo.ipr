@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
   <component name="ClearCaseSharedConfig">
     <option name="myUseUcmModel" value="true" />
   </component>
@@ -165,6 +168,11 @@
         <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
       </item>
     </group>
+  </component>
+  <component name="PhpProjectConfiguration">
+    <sdk>
+      <PhpSdkConfig home="/usr/lib/php" />
+    </sdk>
   </component>
   <component name="ProjectModuleManager">
     <modules>

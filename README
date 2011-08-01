@@ -1,14 +1,11 @@
-TaskList
-- id
-- title
-- description
-- userId
-- createdAt
+Features
 
-TaskItem
-- id
-- title
-- description
-- taskListId
-- createdAt
+- Sync with google tasks
+- Dashboard:
+    - completion rate graph/stat
+    - show most immediate task
+    - list all lists
 
+
+2011-07-31
+User test not passing.

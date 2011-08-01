@@ -1,0 +1,10 @@
+Testsuite: com.kl.todo.SupportControllerTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.867 sec
+------------- Standard Output ---------------
+--Output from testForgetPassword--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testForgetPassword--
+------------- ---------------- ---------------
+
+Testcase: testForgetPassword took 0.841 sec

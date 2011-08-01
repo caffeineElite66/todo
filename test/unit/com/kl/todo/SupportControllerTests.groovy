@@ -11,7 +11,14 @@ class SupportControllerTests extends ControllerUnitTestCase {
         super.tearDown()
     }
 
-    void testSomething() {
+    void testForgetPassword() {
+        def fc = new SupportController()
+        fc.forgetPassword()
+        assertEquals "forgetPassword", fc.response.contentAsString
+    }
 
+    void testSendPassword() {
+        def controller = new SupportController()
+        assertEquals true, controller.sendPassword("test@test.com")
     }
 }
